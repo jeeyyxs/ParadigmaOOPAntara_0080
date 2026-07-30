@@ -30,3 +30,17 @@ class Barang{
         }
     
 };
+
+int main(){
+    Barang elektronik;
+    Barang nonElektronik;
+
+    elektronik.inputData();
+    elektronik.tampilspek();
+
+    cout << endl;
+    cout << endl;
+
+    nonElektronik.inputData();
+    nonElektronik.tampilspek();
+}
