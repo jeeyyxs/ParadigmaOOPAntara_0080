@@ -12,4 +12,12 @@ public:
         cout << "Nama: " << nama << endl;
         cout << "Nilai: " << nilai << endl;
    }
+}; //batas class
+
+int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2022;
+    mhs.nama = "Abra";
+    mhs.nilai = 90.5;
+
 }
